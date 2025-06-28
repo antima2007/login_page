@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login page</title>
+
+        
+       
+        <style>
+.button1{
+    height:40px;
+    width:200px;
+    background-color:blue;
+    border-radius:20px;
+    color: white;
+    
+}
+.button2{
+    height:40px;
+    width:200px;
+    background-color:red;
+    border-radius:20px;
+    color: white;
+}
+.nav{
+    border-style: groove ;
+    height: 420px;
+    width: 300px;
+    margin-top: 100px;
+    padding-top: 5px;
+    border-radius: 2px;
+    /* background-image: url(beat.png); */
+backdrop-filter: blur(10px);
+background-color: rgba(255, 254, 254, 0.763);
+box-shadow:5px 6px 12px 2px  rgb(139, 139, 139);
+border-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+input:hover{
+    color:rgb(7, 110, 36);
+}
+button:hover{
+    background-color: purple;
+}
+
+.for{
+    color:rgb(78, 0, 72);
+}
+.max{
+    padding: 4px;
+
+}
+.max:hover{
+    box-shadow: 1px 1px 3px 2px rgb(174, 173, 173);
+}
+.max:visited{
+    border-color: rgb(147, 147, 147);
+}
+
+body{
+    background: radial-gradient(white,white,rgb(131, 220, 242),pink,rgb(136, 245, 136));
+   display: flex;
+   justify-content:center ;
+   background-size:cover;
+   background-repeat: no-repeat;
+   margin-bottom: 150px;
+}
+
+@media (max-width:450px){
+    .button1{
+    height:40px;
+    width:200px;
+    background-color:blue;
+    border-radius:20px;
+    color: white;
+    
+}
+.button2{
+    height:40px;
+    width:200px;
+    background-color:red;
+    border-radius:20px;
+    color: white;
+}
+.nav{
+    border-style: groove ;
+    height: 420px;
+    width: 250px;
+    margin-top: 100px;
+    padding-top: 5px;
+    border-radius: 2px;
+    /* background-image: url(beat.png); */
+backdrop-filter: blur(10px);
+/* background: linear-gradient(rgb(163, 255, 163) pink rgb(197, 197, 255)); */
+box-shadow:5px 6px 12px 2px  rgb(139, 139, 139);
+border-style: none;
+display: flex;
+justify-content: center;
+
+}
+body{
+    background: linear-gradient(rgb(131, 220, 242),pink,rgb(136, 245, 136));
+   display: flex;
+   justify-content:center ;
+   background-size:cover;
+   background-repeat: no-repeat;
+   margin-bottom: 150px;
+}
+
+}
+        </style>
+       
+
+        
+    </head>
+    <body>
+        <center>
+        
+            <nav class="nav" >
+        <form action="website.html" onclick="display()">
+      <h1 class="login">Login</h1>
+        <input  class="max"type="text"placeholder="enter your email or phone"name="email"required maxlenght="30"><br><br>
+
+        
+        <input class="max"type="password"placeholder="enter your password"name="password"required minlenght="8"><br><br>
+        <a class="for"href="#">forget password?</a><br><br>
+
+        <button id="btn1"class="button1" onclick="display();"required>sign in </button>
+        <p><hr>or</p>
+        <button id="btn2" class="button2" onclick="apple();">sign in with apple</button><br><br><br>
+
+
+
+       <span >new user?</span>
+       <span ><a  href="#" >resister</a></span>
+        
+        </form>
+        </nav>
+       
+        </center>
+        
+
+          
+    </body>
+</html>
